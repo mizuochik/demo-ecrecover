@@ -6,4 +6,5 @@ const account = recoverPersonalSignature({
     sig: '0x317af8ad8c3b69b6bf9ca9e193565105726e49ff3c4b2db55bd178d1b26b367126e751f10888319824f001295912a316fd3d565d765acaf3a695846b0420742f1c',
 });
 
+console.log('msg=' + msg);
 console.log('account=' + account);
